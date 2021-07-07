@@ -31,7 +31,7 @@ export default class StatsComponent extends Component{
             }
         });
 
-        xhr.open("GET", "s");
+        xhr.open("GET", "https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats");
         xhr.setRequestHeader("x-rapidapi-host", "covid-19-coronavirus-statistics.p.rapidapi.com");
         xhr.setRequestHeader("x-rapidapi-key", "996df31660msha14ea0c67308aa6p141c82jsnf2908d82f244");
         xhr.send(data);
